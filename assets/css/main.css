@@ -514,7 +514,8 @@
     bottom: 0;
     width: 210px;
     max-width: 100%;
-    background-color: var(--white-color);
+    background-color: var(--primary-color);
+    filter: brightness(138%);
     /* display: none; */
     transform: translateX(-100%);
     opacity: 0;
@@ -531,7 +532,7 @@
 .header__mobile-item-link {
     display: block;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--white-color);
     font-size: 1.5rem;
     padding: 12px 0;
     margin: 10px 0 0 17px;
@@ -539,7 +540,7 @@
 
 .header__mobile-item-icon {
     font-size: 1.3rem;
-    color: var(--text-color);
+    color: var(--white-color);
     margin: 0 8px 0 3px;
 }
 
@@ -553,7 +554,7 @@
 .mobile_nav-user-name {
     margin-left: 4px;
     font-size: 1.5rem;
-    color: var(--text-color);
+    color: var(--white-color);
     font-weight: 400;
     margin-left: 10px;
 }
@@ -571,7 +572,7 @@
     top: 8px;
     right: 12px;
     font-size: 2.2rem;
-    color: var(--text-color);
+    color: var(--white-color);
 }
 
 /* Mobile search */
